@@ -133,7 +133,7 @@ int main(int argc, char const* argv[]) {
     for (int i = 0; i < 5; i++) {
         mySocket = 0;
         char buffer[SIZE] = { 0 };
-//Hello
+
         sSocket = socket(AF_INET, SOCK_STREAM, 0)
             if (sSocket < 0) {
                 printf("Socket Error!\n");
